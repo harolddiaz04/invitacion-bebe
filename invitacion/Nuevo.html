@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revelación de Género | Johanna y Harold</title>
+    <style>
+        :root {
+            --pink: #ffb6c1;
+            --blue: #add8e6;
+            --dark: #333;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: linear-gradient(135deg, var(--pink) 50%, var(--blue) 50%);
+            color: var(--dark);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            max-width: 500px;
+            width: 90%;
+            margin: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: var(--dark);
+        }
+        h2 {
+            font-size: 1.2em;
+            font-weight: normal;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .names {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        /* Contenedor especial para la imagen */
+        .image-container {
+            max-width: 90%;
+            margin: 0 auto 30px; /* Centrado y margen inferior */
+            border-radius: 20px; /* Bordes redondeados */
+            overflow: hidden; /* Corta la imagen para los bordes redondos */
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Sombra suave */
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .details {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .dress-code {
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            transition: transform 0.2s;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+        }
+        .btn-pink { background-color: #ff91a4; }
+        .btn-blue { background-color: #87cefa; }
+        .btn-whatsapp { 
+            background-color: #25D366; 
+            display: block; 
+            margin: 20px auto; 
+            max-width: 200px;
+        }
+        .poll {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>¿Niño o Niña?</h1>
+        <h2>¡El gran secreto está por revelarse!</h2>
+        
+        <div class="names">
+            Acompaña a Johanna y Harold <br>a descubrir esta gran sorpresa.
+        </div>
+
+        <div class="image-container">
+            <img src="moyyo.jpg" alt="Johanna y Harold, padres orgullosos">
+        </div>
+
+        <div class="details">
+            <p><strong>📅 Fecha:</strong> Sábado, 13 de Junio de 2026</p>
+            <p><strong>⏰ Hora:</strong> 3:00 PM</p>
+            <p><strong>📍 Lugar:</strong> Cali, Valle del Cauca<br>(Reemplaza aquí con la dirección exacta)</p>
+        </div>
+
+        <p class="dress-code">
+            Código de vestimenta: ¡Ven vestido de rosa o azul según lo que creas que será el bebé!
+        </p>
+
+        <div class="poll">
+            <h3>¿Tú qué crees que será?</h3>
+            <a href="#" class="btn btn-pink">¡Es Niña! 🎀</a>
+            <a href="#" class="btn btn-blue">¡Es Niño! 🧢</a>
+        </div>
+
+        <a href="https://wa.me/TUNUMERODEWHATSAPP" class="btn btn-whatsapp" target="_blank">
+            Confirmar Asistencia
+        </a>
+    </div>
+
+</body>
+</html>
